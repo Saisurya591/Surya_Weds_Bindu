@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wedding invitation for Sai Surya and HimaBindu on 22 August 2026, with reception on 25 August 2026."
+    />
+    <title>Sai Surya &amp; HimaBindu | Wedding Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="gate-waiting">
+    <div class="gate-intro" id="gate-intro">
+      <div class="gate-backdrop"></div>
+      <div class="gate-stage">
+        <div class="gate-light"></div>
+        <div class="door-frame"></div>
+        <div class="gate-panel gate-left"></div>
+        <div class="gate-panel gate-right"></div>
+      </div>
+      <button class="gate-enter" id="gate-enter" type="button">Open Invitation</button>
+    </div>
+    <audio id="wedding-audio" src="assets/wedding-song.mp3" preload="auto" loop playsinline></audio>
+    <button class="music-toggle" id="music-toggle" type="button" aria-label="Play wedding music" hidden>
+      <span class="music-icon" aria-hidden="true"></span>
+    </button>
+    <div class="ambient" aria-hidden="true">
+      <span class="mandala mandala-one"></span>
+      <span class="mandala mandala-two"></span>
+      <div id="petal-field"></div>
+      <div id="particle-field"></div>
+    </div>
+
+    <header class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Sri Subhamastu</p>
+        <h1><span>Sai Surya</span><em>heart</em><span>HimaBindu</span></h1>
+        <p class="invitation">
+          Together with our beloved families, we joyfully invite you to grace
+          our sacred wedding ceremony with your blessings and presence.
+        </p>
+        <div class="hero-meta" aria-label="Wedding date and muhurtham">
+          <div>
+            <small>Wedding Date</small>
+            <strong>22 August 2026</strong>
+          </div>
+          <div>
+            <small>Muhurtham</small>
+            <strong>11:57 PM</strong>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-indicator" href="#countdown" aria-label="Scroll to countdown">
+        <span></span>
+      </a>
+    </header>
+
+    <main>
+      <section class="section countdown-section" id="countdown">
+        <div class="section-inner">
+          <div class="section-heading reveal blur-in">
+            <p class="eyebrow">Auspicious Countdown</p>
+            <h2>The sacred hour approaches</h2>
+          </div>
+          <div class="countdown-plaque reveal scale-in" id="countdown-timer">
+            <div><strong data-unit="days">000</strong><span>Days</span></div>
+            <div><strong data-unit="hours">00</strong><span>Hours</span></div>
+            <div><strong data-unit="minutes">00</strong><span>Minutes</span></div>
+            <div><strong data-unit="seconds">00</strong><span>Seconds</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section details-section" id="details">
+        <div class="section-inner two-column">
+          <article class="event-card reveal from-left">
+            <p class="eyebrow">Wedding Ceremony</p>
+            <h2>22 August 2026</h2>
+            <dl>
+              <div><dt>Time</dt><dd>11:57 PM</dd></div>
+              <div><dt>Venue</dt><dd>SR Residency</dd></div>
+              <div><dt>Address</dt><dd>Annavaram Town Rd, Opp. NAYARA Petrol Bunk</dd></div>
+            </dl>
+            <div class="button-row">
+              <a class="btn" href="https://maps.app.goo.gl/HZ6tkvycLSos47z57" target="_blank" rel="noreferrer">View Location</a>
+              <a class="btn btn-gold" href="https://maps.app.goo.gl/HZ6tkvycLSos47z57" target="_blank" rel="noreferrer">Get Directions</a>
+              <button class="btn calendar-btn" data-event="wedding">Add to Calendar</button>
+            </div>
+          </article>
+          <div class="map-frame reveal from-right">
+            <iframe
+              title="Wedding venue map"
+              loading="lazy"
+              src="https://maps.google.com/maps?q=SR%20Residency%20Annavaram%20Town%20Rd%20Opp.%20NAYARA%20Petrol%20Bunk&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reception-section" id="reception">
+        <div class="section-inner two-column reverse">
+          <article class="event-card reveal from-right">
+            <p class="eyebrow">Reception</p>
+            <h2>25 August 2026</h2>
+            <dl>
+              <div><dt>Time</dt><dd>7:00 PM</dd></div>
+              <div><dt>Venue</dt><dd>Varam Residency</dd></div>
+              <div><dt>Address</dt><dd>Day &amp; Night Area, Srikakulam, Andhra Pradesh</dd></div>
+            </dl>
+            <div class="button-row">
+              <a class="btn" href="https://maps.app.goo.gl/3S2mMN5ranULFRQRA" target="_blank" rel="noreferrer">View Location</a>
+              <a class="btn btn-gold" href="https://maps.app.goo.gl/3S2mMN5ranULFRQRA" target="_blank" rel="noreferrer">Get Directions</a>
+              <button class="btn calendar-btn" data-event="reception">Add to Calendar</button>
+            </div>
+          </article>
+          <div class="map-frame reveal from-left">
+            <iframe
+              title="Reception venue map"
+              loading="lazy"
+              src="https://maps.google.com/maps?q=Varam%20Residency%20Day%20%26%20Night%20Area%20Srikakulam%20Andhra%20Pradesh&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="section timeline-section">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Wedding Journey</p>
+            <h2>From sacred vows to celebration</h2>
+          </div>
+          <div class="timeline">
+            <div class="milestone reveal from-left">
+              <span class="lotus-icon">Lotus</span>
+              <h3>Wedding Ceremony</h3>
+              <p>22 August 2026, 11:57 PM at SR Residency</p>
+            </div>
+            <div class="timeline-line" aria-hidden="true"></div>
+            <div class="milestone reveal from-right">
+              <span class="lotus-icon">Marigold</span>
+              <h3>Reception</h3>
+              <p>25 August 2026, 7:00 PM at Varam Residency</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section blessings-section">
+        <div class="section-inner blessing-panel reveal scale-in">
+          <p>"Your gracious presence and heartfelt blessings will make our celebration truly complete."</p>
+        </div>
+      </section>
+
+      <!-- ========== NEARBY PLACES SECTION ========== -->
+      <section class="section nearby-section" id="nearby">
+        <div class="section-inner">
+          <div class="section-heading reveal blur-in">
+            <p class="eyebrow">Explore While You're Here</p>
+            <h2>Nearby Places to Visit</h2>
+            <p class="nearby-subtitle">Discover the spiritual &amp; natural wonders surrounding Annavaram, Andhra Pradesh</p>
+          </div>
+
+          <div class="map-canvas" aria-label="Map of nearby places">
+            <!-- Decorative map background -->
+            <div class="map-grid" aria-hidden="true"></div>
+            <div class="map-compass" aria-hidden="true">
+              <span class="compass-n">N</span>
+              <span class="compass-s">S</span>
+              <span class="compass-e">E</span>
+              <span class="compass-w">W</span>
+              <div class="compass-rose"></div>
+            </div>
+            <!-- Central origin pin -->
+            <div class="map-origin reveal scale-in">
+              <div class="origin-pulse"></div>
+              <div class="origin-dot"></div>
+              <span class="origin-label">Annavaram</span>
+            </div>
+
+            <!-- 6 Place Cards -->
+            <div class="place-card reveal" id="place-1">
+              <div class="place-pin">
+                <span class="pin-number">1</span>
+              </div>
+              <div class="place-info">
+                <div class="place-img-wrap">
+                  <img src="assets/annavaram_temple.png" alt="Sri Satyanarayana Swamy Temple" loading="lazy" />
+                  <span class="place-distance">In Annavaram</span>
+                </div>
+                <div class="place-body">
+                  <h3>Annavaram Temple</h3>
+                  <p class="place-loc">&#128205; Ratnagiri Hills, Annavaram</p>
+                  <p class="place-desc">The sacred hill temple of Lord Satyanarayana Swamy — the holy setting of our wedding and a famous pilgrimage destination.</p>
+                  <a class="place-link" href="https://maps.google.com/maps?q=Sri+Veera+Venkata+Satyanarayana+Swamy+Temple+Annavaram" target="_blank" rel="noreferrer">View on Map &#8599;</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="place-card reveal" id="place-2">
+              <div class="place-pin">
+                <span class="pin-number">2</span>
+              </div>
+              <div class="place-info">
+                <div class="place-img-wrap">
+                  <img src="assets/talupulamma_temple.png" alt="Sri Talupulamma Thalli Temple" loading="lazy" />
+                  <span class="place-distance">~28 km</span>
+                </div>
+                <div class="place-body">
+                  <h3>Talupulamma Temple</h3>
+                  <p class="place-loc">&#128205; Tuni, Andhra Pradesh</p>
+                  <p class="place-desc">An ancient revered temple of Goddess Talupulamma nestled in a peaceful lush valley — a beloved spiritual retreat for devotees.</p>
+                  <a class="place-link" href="https://maps.google.com/maps?q=Talupulamma+Temple+Tuni+Andhra+Pradesh" target="_blank" rel="noreferrer">View on Map &#8599;</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="place-card reveal" id="place-3">
+              <div class="place-pin">
+                <span class="pin-number">3</span>
+              </div>
+              <div class="place-info">
+                <div class="place-img-wrap">
+                  <img src="assets/pithapuram_temples.png" alt="Pithapuram Temples" loading="lazy" />
+                  <span class="place-distance">~25 km</span>
+                </div>
+                <div class="place-body">
+                  <h3>Pithapuram Temples</h3>
+                  <p class="place-loc">&#128205; Pithapuram, Andhra Pradesh</p>
+                  <p class="place-desc">A major pilgrimage hub with Sri Puruhutika Ammavari (Shakti Peetha), Kukkuteswara Swamy &amp; Pada Gaya — sacred ground for every devotee.</p>
+                  <a class="place-link" href="https://maps.google.com/maps?q=Pithapuram+Temples+Andhra+Pradesh" target="_blank" rel="noreferrer">View on Map &#8599;</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="place-card reveal" id="place-4">
+              <div class="place-pin">
+                <span class="pin-number">4</span>
+              </div>
+              <div class="place-info">
+                <div class="place-img-wrap">
+                  <img src="assets/uppada_beach.png" alt="Uppada Beach" loading="lazy" />
+                  <span class="place-distance">~25 km</span>
+                </div>
+                <div class="place-body">
+                  <h3>Uppada Beach</h3>
+                  <p class="place-loc">&#128205; Uppada, Andhra Pradesh</p>
+                  <p class="place-desc">Pristine golden sands meet the Bay of Bengal. Also famous for the exquisite Uppada silk sarees woven by master weavers.</p>
+                  <a class="place-link" href="https://maps.google.com/maps?q=Uppada+Beach+Andhra+Pradesh" target="_blank" rel="noreferrer">View on Map &#8599;</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="place-card reveal" id="place-5">
+              <div class="place-pin">
+                <span class="pin-number">5</span>
+              </div>
+              <div class="place-info">
+                <div class="place-img-wrap">
+                  <img src="assets/kumararama_temple.png" alt="Kumararama Bheemeshwara Temple" loading="lazy" />
+                  <span class="place-distance">~35 km</span>
+                </div>
+                <div class="place-body">
+                  <h3>Kumararama Temple</h3>
+                  <p class="place-loc">&#128205; Samarlakota, Andhra Pradesh</p>
+                  <p class="place-desc">One of the five sacred Pancharama Kshetrams dedicated to Lord Shiva — renowned for its grand Dravidian architecture and historical heritage.</p>
+                  <a class="place-link" href="https://maps.google.com/maps?q=Kumararama+Bhimeswara+Temple+Samarlakota" target="_blank" rel="noreferrer">View on Map &#8599;</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="place-card reveal" id="place-6">
+              <div class="place-pin">
+                <span class="pin-number">6</span>
+              </div>
+              <div class="place-info">
+                <div class="place-img-wrap">
+                  <img src="assets/coringa_sanctuary.png" alt="Coringa Wildlife Sanctuary" loading="lazy" />
+                  <span class="place-distance">~40 km</span>
+                </div>
+                <div class="place-body">
+                  <h3>Coringa Wildlife Sanctuary</h3>
+                  <p class="place-loc">&#128205; Kakinada, Andhra Pradesh</p>
+                  <p class="place-desc">One of India's rare surviving mangrove forests on the Bay of Bengal — a paradise for nature lovers and bird watchers alike.</p>
+                  <a class="place-link" href="https://maps.google.com/maps?q=Coringa+Wildlife+Sanctuary+Kakinada" target="_blank" rel="noreferrer">View on Map &#8599;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="garland" aria-hidden="true"></div>
+      <p>With Love</p>
+      <h2>Sai Surya <span>heart</span> HimaBindu</h2>
+    </footer>
+
+    <div class="calendar-menu" id="calendar-menu" hidden>
+      <button data-provider="google">Google Calendar</button>
+      <button data-provider="apple">Apple Calendar</button>
+      <button data-provider="outlook">Outlook</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
