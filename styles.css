@@ -19,6 +19,9 @@
 
 html {
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
 }
 
 body {
@@ -28,6 +31,7 @@ body {
     radial-gradient(circle at top left, rgba(230, 126, 34, 0.18), transparent 32rem),
     linear-gradient(180deg, #fff8e7 0%, #fbebd3 42%, #fff8e7 100%);
   font-family: "Poppins", Arial, sans-serif;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
